@@ -1,0 +1,56 @@
+body {
+  background-color: #ffffff;
+  color: #555555;
+  font: normal 16px Arial, Helvetica, sans-serif;
+  line-height: 1.6em;
+  margin: auto;
+}
+#image {
+  text-align: center;
+}
+.google_form {
+  background-color: #e1e1e1;
+  margin: 0.4em;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.google_form label {
+  font: normal;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+}
+.google_form input {
+  width: 250px;
+  height: 20px;
+}
+.google_form button {
+  width: auto;
+  height: auto;
+  padding: 2px;
+}
+.list_1 {
+  display: grid;
+  margin-left: 0.4em;
+  margin-right: 1em;
+  grid-gap: 5px;
+  grid-template-columns: 37.5% 25% 37.5%;
+}
+.grid_item {
+  background-color: aquamarine;
+  font-size: 15px;
+  text-align: center;
+}
+.list_1 a {
+  font: normal 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#ul {
+  list-style-type: none;
+  padding-right: 30px;
+}
+#main_footer {
+  margin-top: 20px;
+  font-size: 13px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}

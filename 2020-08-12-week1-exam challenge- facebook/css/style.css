@@ -1,0 +1,122 @@
+header{
+  background-color: rgb(55, 82, 156);
+  color: white;
+}
+header img{
+  display: inline-block;
+  padding: 5px 17% 5px 17%;
+  text-align: center;
+}
+header form{
+  padding: 8px;
+  display: inline-block;
+  width: 41%;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+header button{
+  background-color: rgb(130, 144, 184);
+  font-weight: 900;
+  color: white;
+}
+header form label{
+  margin: 4px;
+}
+body{
+  /* text-align: center; */
+}
+.container{
+  display: inline-block;
+  width: 100%;
+  background-image: linear-gradient(white, rgb(234, 239, 241));
+  
+}
+.left_column{
+  display: inline-block;
+  width: 55%;
+}
+.left_column h3{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(76, 100, 168);
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin-left: 40%;
+  width: 55%;
+}
+.left_column img{
+  margin-left: 40%;
+  width: 55%;  
+}
+.right_column{
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+}
+.right_column form{
+  font-size: 14px;
+  color: rgb(76, 100, 168);
+  font-family: sans-serif;
+  margin: 1px 0 1px 1px;
+  padding: 1px 0 1px 1px;
+}
+#paragraph1{
+  border-bottom: 1px solid rgb(76, 100, 168);
+}
+.text{
+  margin: 1px 0 1px 3px;
+  width: 45%;
+  height: 20px;
+}
+.select{
+  background-color: white;
+  margin: 1.5px 0 1.5px 3px;
+  width: 95px;
+  height: 20px;
+  border-radius: 5px;
+}
+.paragraph2{
+  margin-left: 16%;
+  width: 40%;
+  text-align: justify;
+  font-size: 13px;
+  color: black;
+}
+#form_button{
+  background-color: rgb(53, 160, 53);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  width: 75px;
+  height: 22px;
+  border: 1.5px solid green;
+  margin-left: 16%;
+}
+#paragraph3{
+  width: 50%;
+  text-align: center;
+  font-size: 13px;
+  color: black;
+}
+footer{
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  margin: 5px 0 5px 15%;
+}
+#copyright{
+  display: inline-block;
+  width: 22%;
+  margin-top: 5px;
+  margin-right: 5%;
+}
+#footer_paragraph1{
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(76, 100, 168);
+}
+#footer_paragraph2{
+  margin-top: 5px;
+  display: inline-block;
+  text-align: right;
+  width: 45%;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo.png" alt="Facebook">
+      <form action="/function.php">
+        <label for="your_email">Email</label>
+        <input type="email" name="email" id="your_email">
+        <label for="your_password">Password</label>
+        <input type="password" name="password" id="your_password">
+      </form>
+      <button type="button" id="header_button">Log In</button>
+    </header>
+    <div class="container">
+      <div class="left_column">
+        <h3>Facebook helps you connect and share with the people in your life.</h3>
+        <img src="./images/body_pic.png" alt="connect with Facebook">
+      </div>
+      <div class="right_column">
+        <form action="/func.php">
+          <h4>Sign Up</h4>
+          <p id="paragraph1">It's free and always will be.</p>
+          <label for="f_name">First Name: </label>
+          <input type="text" name="name" class="text" id="f_name"><br>
+          <label for="l_name">Last Name: </label>
+          <input type="text" name="name" class="text" id="l_name"><br>
+          <label for="email">Your Email: </label>
+          <input type="email" name="email" class="text" id="email"><br>
+          <label for="re_email">Re-enter<br>Email: </label>
+          <input type="email" name="email" class="text" id="re_email"><br>
+          <label for="password">New<br>Password: </label>
+          <input type="password" name="password" class="text" id="password"><br>
+          <label for="identity">I am: </label>
+          <select name="select" class="select" id="identity">
+            <option value="Sex">Select Sex:</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select><br>
+          <label for="birth">Birthday: </label>
+          <select name="month" class="select" id="birth">
+            <option value="month">Month</option>
+          </select>
+          <select name="day" class="select">
+            <option value="day">Day</option>
+          </select>
+          <select name="year" class="select">
+            <option value="year">Year</option>
+          </select>
+          <p class="paragraph2">
+            <a href="#">Why do I need to provide my birthday?</a>
+          </p>
+          <p class="paragraph2">
+            BY clicking Sign Up, you agree to our <a href="#">Terms</a> and that you have read and understand our <a href="#">Data Use Policy</a>.
+          </p>
+          <button type="button" id="form_button">Sign Up</button>
+          <hr>
+          <p id="paragraph3">
+            <a href="#">Create a Page</a> for a celebrity, band or business.
+          </p>
+        </form>
+        
+      </div>
+      
+    </div>
+    <footer>
+      <p id="footer_paragraph1">
+        <a href="#">English (US)</a>
+        <a href="#">Español</a>
+        <a href="#">Português (Brasil)</a>
+        <a href="#">Français (France))</a>
+        <a href="#">Deutsch</a>
+        <a href="#">Italiano</a>
+        <a href="#">العربیه</a>
+        <a href="#">हिन्दी</a>
+        <a href="#">汉语</a>
+        <a href="#">日本語</a>
+        <button type="button" id="footer_button">...</button>
+      </p>
+      <p id="copyright">Facebook &copy; 2012 - <a href="#">English (US)</a></p>
+      <p id="footer_paragraph2">
+        <a href="#">Mobile</a> - <a href="#">Find Friends</a> - <a href="#">Badges</a> - <a href="#">People</a> <a href="#">About</a> - <a href="#">Advertising</a> - <a href="#">Create a Page</a> - <a href="#">Developers</a> - <a href="#">Careers</a> - <a href="#">Privacy</a> - <a href="#">Terms</a> - <a href="#">Help</a>
+      </p>
+    </footer>
+  </body>
+</html>

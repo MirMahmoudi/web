@@ -1,0 +1,23 @@
+body{
+  width: 100%;
+  background-image: url(../images/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+header nav{
+  background-image: linear-gradient( #6b012c,  #e40f67);
+}
+.main_table{
+  width: 50%;
+  color: #c20b54;
+}
+footer{
+  background-image: linear-gradient( #e40f67, #4b011e);
+}
+.btn-small{
+  background-color: #df34a6;
+}
+.form_radio{
+  color: #c20b54;
+  font-size: 12px !important;
+}

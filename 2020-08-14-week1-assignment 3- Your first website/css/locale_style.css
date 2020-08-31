@@ -1,0 +1,20 @@
+*{
+  /* border: 1px solid red; */
+}
+.grid_container{
+  display: grid;
+  grid-template-columns: 14% 70% 14%;
+  grid-gap: 5px;
+}
+/* .left_col{
+  text-align: left;
+}
+.mddile_col{
+  text-align: middle;
+}
+.right_col{
+  text-align: right;
+} */
+.img-thumbnail{
+  width: 160px;
+}
